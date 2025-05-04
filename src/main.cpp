@@ -10,5 +10,5 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-   Serial.printf("Hello World!\n");
+   Serial.printf("Hello World!\n"); // prints Hello World! on the Serial Monitor
 }
