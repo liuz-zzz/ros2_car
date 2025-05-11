@@ -26,7 +26,9 @@ void loop() {
         //     Serial.printf("Read byte: %d\n",c);
         // }
         // 读取一行数据
+        // 从串口读取一行字符串
         String line = Serial.readString();
+        // 打印读取的字符串
         Serial.printf("Read line: %s\n",line.c_str());
     }
 }
